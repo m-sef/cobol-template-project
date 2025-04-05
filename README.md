@@ -1,0 +1,4 @@
+# How to Compile
+```
+make
+```

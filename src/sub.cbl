@@ -9,12 +9,17 @@
        DATA DIVISION.
        LINKAGE SECTION.
        01 LK-MESSAGE PIC X(128) VALUE SPACES.
+       01 LK-REPEAT-N PIC 9(10) VALUE ZEROS.
 
-       PROCEDURE DIVISION USING LK-MESSAGE.
+       PROCEDURE DIVISION USING LK-MESSAGE
+                                LK-REPEAT-N.
       /*****************************************************************
        SUB-PROGRAM.
       * Subprogram entry point
       /*****************************************************************
-           DISPLAY LK-MESSAGE.
+           PERFORM LK-REPEAT-N TIMES
+               DISPLAY LK-MESSAGE
+           END-PERFORM.
+           
            EXIT.
        END PROGRAM SUB-PROGRAM.

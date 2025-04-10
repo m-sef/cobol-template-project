@@ -1,10 +1,10 @@
 COMPILER = cobc
-FLAGS = -Wall -Werror -x
+FLAGS = -O0 -Wall -Werror -x
 
 all: main
 
 main:
-	$(COMPILER) $(FLAGS) main.cbl
+	$(COMPILER) $(FLAGS) src/main.cbl src/sub.cbl
 
 clean:
 	rm main

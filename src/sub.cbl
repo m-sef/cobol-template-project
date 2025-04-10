@@ -1,5 +1,5 @@
       /*****************************************************************
-      * Authors: Seth Moore (slmoore@hamilton.edu)
+      * Author(s): Seth Moore (slmoore@hamilton.edu)
       * Date: YYYY-MM-DD
       * Description: Example COBOL subprogram utilizing linkage section.
       /*****************************************************************

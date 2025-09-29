@@ -1,4 +1,3 @@
-# How to Compile
-```
-make
-```
+# cobol-template-project
+
+Example COBOL program utilizing subprograms.

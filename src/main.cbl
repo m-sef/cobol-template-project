@@ -1,5 +1,5 @@
       /*****************************************************************
-      * Author(s): Seth Moore (slmoore@hamilton.edu)
+      * Author(s): m-sef (https://github.com/m-sef)
       * Date: YYYY-MM-DD
       * Description: Template COBOL project.
       /*****************************************************************
